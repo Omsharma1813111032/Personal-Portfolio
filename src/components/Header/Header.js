@@ -13,9 +13,9 @@ const Header = () => {
 
         <>
 
-            <Navbar expand="lg" className="">
+            <Navbar expand="lg" className="" style={{backgroundColor:"#010101"}} fixed='top' >
                 <Container>
-                    <Navbar.Brand href="#home">Om Sharma</Navbar.Brand>
+                    <Navbar.Brand href="/">Om Sharma</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">

@@ -1,0 +1,28 @@
+#landing{
+
+    height: 100vh;
+
+
+    color: white;
+    background-color: #010101;
+    padding-top:60px
+}
+
+.info-nm {
+    text-align: center;
+    font-size: 40px;
+}
+
+.info-dest{
+    text-align: center;
+    padding-top: 0.5%;
+}
+
+.info-destination{
+    font-size: larger;
+}
+
+/* @media only screen and (max-width: 800px) {
+     .info-destination{
+    }
+} */

@@ -1,7 +1,16 @@
 .nav-link{
     font-weight: 500;
+    color: white;
 }
 
-nav{
-    border-bottom: 1px solid orangered;
+.nav-link:hover{
+    color: springgreen;
+}
+
+.active{
+    color: springgreen !important;
+}
+
+.navbar-brand{
+    color:white
 }
