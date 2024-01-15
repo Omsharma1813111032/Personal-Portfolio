@@ -1,26 +1,71 @@
+.navbar{
+    background-color: transparent;
+}
 #landing{
-
     height: 100vh;
-
-
     color: white;
-    background-color: #010101;
     padding-top:60px
+}
+
+
+@media only screen and (max-width: 580px) {
+    .landing-up{
+        background-color: #4831d4;
+    }
+    .landing-down{
+        background-color: #ccf381;
+    }
+    #landing{
+        padding-top:0px;
+    }
+    .navbar-toggler{
+        background-color:#ccf381;
+    }
+    .landing-i{
+        width: 400px;
+        height: 400px;
+        padding-bottom: 10% !important ;
+        padding-left: 10% !important ;
+    }
+}
+
+
+@media only screen and (min-width: 581px) {
+    #landing{
+         background-image: linear-gradient(90deg, rgb(72, 49, 212) 60%, rgb(204, 243, 129) 40%);
+    }
 }
 
 .info-nm {
     text-align: center;
-    font-size: 40px;
-}
-
-.info-dest{
-    text-align: center;
-    padding-top: 0.5%;
+    /* font-size: 40px; */
+    font-size: 3vw;
 }
 
 .info-destination{
     font-size: larger;
 }
+
+
+.info-landing{
+    padding: 25%;
+}
+
+.btn-dest{
+    color: yellow !important;
+    border-color:yellow !important ;
+}
+
+
+
+.landing-i{
+    width: 400px;
+    height: 400px;
+    /* padding: 25% 25% 0% 25%; */
+    padding: 10% 25% 0% 0;
+}
+
+
 
 /* @media only screen and (max-width: 800px) {
      .info-destination{

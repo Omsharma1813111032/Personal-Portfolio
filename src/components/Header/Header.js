@@ -13,18 +13,17 @@ const Header = () => {
 
         <>
 
-            <Navbar expand="lg" className="" style={{backgroundColor:"#010101"}} fixed='top' >
+            <Navbar expand="lg" className="" fixed='top' >
                 <Container>
                     <Navbar.Brand href="/">Om Sharma</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto">
+                        <Nav className="mx-auto">
                             <Nav.Link href="#landing">Home</Nav.Link>
                             <Nav.Link href="#about">About</Nav.Link>
                             <Nav.Link href="#skills">Skills</Nav.Link>
                             <Nav.Link href="#services">Services</Nav.Link>
                             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-                            <Nav.Link href="#qualification">Qualification</Nav.Link>
                             <Nav.Link href="#contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

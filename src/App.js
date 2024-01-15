@@ -4,6 +4,7 @@ import {Route,Routes} from "react-router-dom"
 import Home from './pages/Home';
 import Error from './pages/Error';
 import Header from './components/Header/Header';
+import Testing from './pages/Testing';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       </div>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/test" element={<Testing />} />
           <Route path="*" element={<Error />} />
         </Routes>
     </div>

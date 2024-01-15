@@ -4,13 +4,17 @@
 }
 
 .nav-link:hover{
-    color: springgreen;
+    color: yellow;
 }
 
 .active{
-    color: springgreen !important;
+    color: yellow !important;
 }
 
 .navbar-brand{
     color:white
+}
+
+.navbar-brand:hover{
+    color:yellow;
 }
