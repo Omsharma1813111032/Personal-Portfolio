@@ -3,11 +3,13 @@ import "./main.css"
 
 const Testing = () => {
   return (
-    <main>
-        <div className='section-landing flex-container' id='wrapper'>
-            <div className='left'>  hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello   hello </div>
-            <div className='right'> hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi  hi </div>
-        </div>
+    <main id='landing-section' tabIndex={-1}>
+        <section className='lhhpGw fWhlNu scrolled' id='wrapper' tabIndex={-1} aria-hidden="false">
+            <div className='inner-content primary'>
+                Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey  Hey 
+            </div>
+            {/* <div className='right'>Hey</div> */}
+        </section>
     </main>
   )
 }
